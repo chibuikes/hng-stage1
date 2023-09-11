@@ -10,4 +10,4 @@ const arr2= document.getElementById('time')
 setInterval(()=>{
     arr1.innerText=arr[date.getDay()]
     arr2.innerText=String(Date.now())
-},1000)
+},1)
